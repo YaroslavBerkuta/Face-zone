@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+  font-family: "Mulish", sans-serif;
+}
+
+.container {
+  max-width: 1530px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.header__flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__top {
+  display: flex;
+  align-items: center;
+  padding: 35px 0;
+}
+
+.header__logo {
+  max-width: 445px;
+  margin: 0 auto;
+}
+
+.header__cart {
+  display: flex;
+  align-items: center;
+  margin-left: 28px;
+}
+
+.header__cart a {
+  display: block;
+  max-width: 28px;
+}
+
+.header__cart a:not(:last-child) {
+  margin-right: 27px;
+}
+
+.header__user {
+  display: flex;
+  align-items: center;
+}
+
+.header__user ul li {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1226aa;
+}
+
+.header__info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.header__info p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #1226aa;
+}
+
+.header__info ul {
+  display: flex;
+  flex-direction: column;
+  margin-left: 47px;
+}
+
+.header__info ul li {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1226aa;
+}
+
+.header__bottom {
+  padding: 20px 0;
+  background: #1226aa;
+}
+
+.header__category ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__category ul li {
+  max-width: 8%;
+  flex: 0 0 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header__category ul li:hover a p {
+  color: #ff671d;
+}
+
+.header__category ul li:hover a .category__img svg path {
+  fill: #ff671d;
+}
+
+.header__category ul li a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__category ul li a p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 11px;
+  transition: all 0.3s linear;
+}
+
+.category__img {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.category__img svg path {
+  transition: all 0.3s linear;
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.slider .swiper-pagination {
+  top: 50%;
+  left: 1% !important;
+  bottom: 0 !important;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto !important;
+  transform: translateY(-50%);
+}
+
+.slider .swiper-pagination .swiper-pagination-bullet {
+  margin-bottom: 50px !important;
+  display: block !important;
+  background-color: transparent !important;
+  border: 2px solid white;
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+  position: relative;
+  transition: all 0.3s linear;
+}
+
+.slider .swiper-pagination .swiper-pagination-bullet:not(:last-child):after {
+  content: " ";
+  position: absolute;
+  width: 2px;
+  height: 30px;
+  background-color: white;
+  top: 220%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.376);
+}
+
+.section__title {
+  padding-top: 95px;
+  margin-bottom: 45px;
+}
+
+.section__title h2 {
+  font-family: "Press Start 2P";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ff671d;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html',{ "title": "Blog" })
+  <body>
+    @@include('html/header.html')
+    <main>
+      <section class="blog">
+        <div class="container">
+          <div class="blog__main">
+            <div class="blog__main-flex">
+              <div class="blog__main-detail">
+                <span>Догляд за шкірою</span>
+                <h1>Як захистити шкіру від сонця або інше у два рядки</h1>
+                <p>
+                  Доводиться досліджувати, що означають латинські хімічні назви
+                  та розбиратись в механізмах дії компонентів? Ще складніше -
+                  побудувати цілісну систему догляду з міжнародної асоціації
+                  медицини антистаріння естетич асоціації медици...
+                </p>
+                <a href="" class="btn btn-primary">Читати далі</a>
+              </div>
+              <div class="blog__main-img">
+                <img src="@img/blogMain.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blog-popular">
+        <div class="popular swiper">
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <h3>Найпопулярніше на сайті</h3>
+          <div class="swiper-wrapper">
+            <div class="popular__slide swiper-slide">
+              <div class="popular__img">
+                <img src="@img/popular.png" alt="" />
+              </div>
+              <div class="popular__info">
+                <p>
+                  These Makeup Products Can Actually Replace Your Entire
+                  Skin-Care Routine
+                </p>
+              </div>
+            </div>
+            <div class="popular__slide swiper-slide">
+              <div class="popular__img">
+                <img src="@img/popular.png" alt="" />
+              </div>
+              <div class="popular__info">
+                <p>
+                  These Makeup Products Can Actually Replace Your Entire
+                  Skin-Care Routine
+                </p>
+              </div>
+            </div>
+            <div class="popular__slide swiper-slide">
+              <div class="popular__img">
+                <img src="@img/popular.png" alt="" />
+              </div>
+              <div class="popular__info">
+                <p>
+                  These Makeup Products Can Actually Replace Your Entire
+                  Skin-Care Routine
+                </p>
+              </div>
+            </div>
+            <div class="popular__slide swiper-slide">
+              <div class="popular__img">
+                <img src="@img/popular.png" alt="" />
+              </div>
+              <div class="popular__info">
+                <p>
+                  These Makeup Products Can Actually Replace Your Entire
+                  Skin-Care Routine
+                </p>
+              </div>
+            </div>
+            <div class="popular__slide swiper-slide">
+              <div class="popular__img">
+                <img src="@img/popular.png" alt="" />
+              </div>
+              <div class="popular__info">
+                <p>
+                  These Makeup Products Can Actually Replace Your Entire
+                  Skin-Care Routine
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container"></div>
+      </section>
+    </main>
+    @@include('html/footer.html')
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

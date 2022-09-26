@@ -4,23 +4,372 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.min.css?_v=20220914195129" />
-
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css?_v=20220925193942"
+  />
+  <link rel="stylesheet" href="css/style.min.css?_v=20220925193942" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap&_v=20220925193942"
+    rel="stylesheet"
+  />
   <title>Home</title>
 </head>
 
   <body>
     <header class="header">
-
+  <div class="container">
+    <div class="header__flex">
+      <div class="header__logo">
+        <a href="/">
+          <img src="img/logo.svg" alt="logo" />
+        </a>
+      </div>
+      <div class="header__menu">
+        <ul>
+          <li><a href="">Підбір косметики</a></li>
+          <li><a href="">Процедури</a></li>
+          <li><a href="">Школа догляду</a></li>
+          <li><a href="">Для лікарів</a></li>
+          <li><a href="">Блог</a></li>
+          <li><a href="">Мій кабінет</a></li>
+        </ul>
+      </div>
+      <a class="header__quize" href="/"> Пройти тест </a>
+    </div>
+  </div>
 </header>
 
     <main>
-      
+      <section class="hero" style="--background: url('/img/hero.png')">
+        <div class="container">
+          <div class="hero__content">
+            <h1>
+              <span>Справді індивідуальний</span> догляд за обличчям, який
+              працює
+            </h1>
+            <p>
+              Професійні рекомендації для <span> 81 типу</span> шкіри. Відкрий
+              підхід до своєї шкіри за 10 хвилин.
+            </p>
+            <div class="hero__btn">
+              <a class="btn btn-primary" href="/">Пройдіть тест</a>
+              <a class="btn" href="/">Як це працює</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="advice">
+            <h2>“Суха, жирна або комбінована?”</br>
+              Цього не достатньо, щоб обрати персоналізований догляд за обличчям.</br>
+              Адже ваша шкіра - набагато складніша система.</h2>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="section__title">
+            <h2>Цей тест допоможе Вам, якщо ВИ:</h2>
+          </div>
+          <div class="detail">
+            <div class="detail__flex">
+              <div class="detail__item">
+                <div class="detail__img">
+                  <img src="img/blog1.png" alt="">
+                  <h3>Не можете обрати</h3>
+                </div>
+                <div class="detail__content">
+                  <p>Реклама, магазини, блогери, журнали - всі кажуть, яку косметику вам слід негайно купити. 
+                    Цей інфо-шум заважає зробити вибір та розчаровує десятками неефективних флаконів на поличках.</p>
+                    <span>Отримайте поетапну схему 
+                      з конкретних засобів, які працюють.
+                      Чітко та просто.
+                      </span>
+                  </div>
+              </div>
+              <div class="detail__item">
+                <div class="detail__img">
+                  <img src="img/blog2.png" alt="">
+                  <h3>Не можете позбутися дискомфорту</h3>
+                </div>
+                <div class="detail__content">
+                  <p>Замість задоволення від догляду раз за разом отримуєте “побочку” 
+                    та неприємні відчуття? Допоможу Вам позбутись подразнення, печіння, висипань і відчуття недостатнього зволоження.</p>
+                    <span>Відкрийте доступ до
+                      комфортного догляду, що не шкодить вашій шкірі. Перевірено дерматологом.                      
+                      </span>
+                  </div>
+              </div>
+              <div class="detail__item">
+                <div class="detail__img">
+                  <img src="img/blog3.png" alt="">
+                  <h3>Не бачите результату</h3>
+                </div>
+                <div class="detail__content">
+                  <p>Проблеми зі шкірою не зникають, 
+                    а її стан не поліпшується? 
+                    Якщо так - не гайте дорогоцінний час та встигніть попередити незворотні зміни в якості шкіри 
+                    вже зараз.</p>
+                    <span>Досягніть результату на основі глибокої діагностики запитів вашої шкіри.
+                      Експертні рекомендації 
+                      “без води”.                      
+                      </span>
+                  </div>
+              </div>
+              <div class="detail__item">
+                <div class="detail__img">
+                  <img src="img/blog4.png" alt="">
+                  <h3>Не розбираєтесь 
+                    в інгредієнтах</h3>
+                </div>
+                <div class="detail__content">
+                  
+                  <p>Доводиться досліджувати, 
+                    що означають латинські хімічні назви та розбиратись в механізмах дії компонентів? Ще складніше - побудувати цілісну систему догляду з комплексною дією.</p>
+                    <span>Отримайте персоналізований перелік засобів з активними інгредієнтами у правильній концентрації.
+                      І ніяких “пустишок”!                      
+                      </span>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="home__user">
+            <div class="user__img">
+              <img src="img/user.png" alt="">
+            </div>
+            <div class="user__description">
+              <p>Догляд, ефект від якого виправдовує кожен витрачений долар. 
+                Оптимальна система для вашої шкіри - без пустих витрат на невдалі експерименти.</p>
+              <span>Менше засобів - краща шкіра.</span>
+              <a href="" class="btn btn-primary">Дізнайтесь, що підходить саме вам</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="section__title">
+            <h2>Як це працює</h2>
+          </div>
+          <div class="about__flex">
+            <div class="about__item">
+              <div class="about__img">
+                <img src="img/phone.svg" alt="">
+              </div>
+              <div class="about__description">
+                <h3>Пройдіть
+                  онлайн-тест</h3>
+                <p>Професійно діагностуємо стан та запити вашої шкіри за 4 напрямками, щоб визначити один з 81 типів шкіри.</p>
+              </div>
+            </div>
+            <div class="about__item">
+              <div class="about__img">
+                <img src="img/gale.svg" alt="">
+              </div>
+              <div class="about__description">
+                <h3>Отримайте
+                  протокол догляду</h3>
+                <p>Відкриваємо для вас поетапну 
+                  систему догляду з чітким 
+                  переліком засобів.</p>
+              </div>
+            </div>
+            <div class="about__item">
+              <div class="about__img">
+                <img src="img/face.svg" alt="">
+              </div>
+              <div class="about__description">
+                <h3>Насолоджуйтесь 
+                  використанням</h3>
+                <p>Даруємо деталізований чек-лист щоденної б’юті-рутини для максимального результату.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="container">
+          <div class="portfolio__flex">
+            <div class="portfolio__item">
+              <div class="portfolio__info">
+                <h4>Оксана Пашковська</h4>
+                <span>Лікар-дерматолог</span>
+                <p>Експерт міжнародної асоціації медицини антистаріння
+                  Член Мультидисциплінарного естетичного товариства
+                  Міжнародний тренер ін'єкційної косметології
+                  </p>
+                  <div class="portfoli__info-label">
+                    <span>14+</span>
+                    <p>Років клінічної практики</p>
+                  </div>
+                  <div class="portfoli__info-label">
+                    <span>70+</span>
+                    <p>Майстер класів для лікарів</p>
+                  </div>
+                  <div class="portfoli__info-label">
+                    <span>Face Zone</span>
+                    <p>Засновник клініки в місті Київ</p>
+                  </div>
+              </div>
+              <div class="portfolio__img">
+                <img src="img/oksana.png" alt="">
+              </div>
+            </div>
+            <div class="portfolio__item">
+              <div class="portfolio__video">
+                <video src="" poster="img/video.png"></video>
+              </div>
+              <div class="portfolio__info">
+                <ul>
+                  <h5>Спікер міжнародних 
+                    конгресів:</h5>
+                    <li>"IMCAS, International Master Course on Aging Science"</li>
+                    <li>"Kolkhida, International Caucasian Congress"</li>
+                    <li>"Marathon of Victorious Clinical Cases"</li>
+                    <li>"S-congress, Secret of Aesthetic & Anti-aging Medicine"</li>
+                    <li>"АМВС, Days of Advanced Aesthetic Medicine"</li>
+                    <li>"May Aesthetics Meeting"</li>
+                </ul>
+              </div>
+            </div>
+            <div class="section__title">
+              <h2>Сертифікати</h2>
+            </div>
+            <div class="portfolio__sertefikat swiper">
+              <div class="swiper-wrapper">
+                <div class="sertefikat__slide swiper-slide" data-fancybox="gallery" href="img/sertefikat.png">
+                  <img src="img/sertefikat.png" alt="">
+                </div>
+                <div class="sertefikat__slide swiper-slide" data-fancybox="gallery" href="img/sertefikat.png">
+                  <img src="img/sertefikat.png" alt="">
+                </div>
+                <div class="sertefikat__slide swiper-slide" data-fancybox="gallery" href="img/sertefikat.png">
+                  <img src="img/sertefikat.png" alt="">
+                </div>
+                <div class="sertefikat__slide swiper-slide" data-fancybox="gallery" href="img/sertefikat.png">
+                  <img src="img/sertefikat.png" alt="">
+                </div>
+                <div class="sertefikat__slide swiper-slide" data-fancybox="gallery" href="img/sertefikat.png">
+                  <img src="img/sertefikat.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="test">
+            <h4>Я вклала досвід тисяч консультацій та результати новітніх наукових досліджень у створення унікальної системи діагностики з 81 типу шкіри.</h4>
+            <p>Пройдіть безкоштовний тест та отримайте персональні рекомендації щодо вашої шкіри</p>
+            <a href="" class="btn btn-primary">Пройти тест</a>
+            <span>10 хвилин - замість очної консультації косметолога</span>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="comment swiper">
+            <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+            <h2>Якісний Догляд = Якість Вашої Шкіри</h2>
+            <div class="comment__flex swiper-wrapper">
+              <div class="comment__item swiper-slide">
+                <div class="comment__img">
+                  <img src="img/coment.png" alt="">
+                </div>
+                <div class="comment__text">
+                  <h3>Міла</h3>
+                  <p>Вибір шрифту та розміру шрифту, за допомогою якого Lorem ipsum відтворюється, відповідає на конкретні потреби, які виходять за рамки просто... <a href="/">Читати відгук</a></p>
+                </div>
+              </div>
+              <div class="comment__item swiper-slide">
+                <div class="comment__img">
+                  <img src="img/coment.png" alt="">
+                </div>
+                <div class="comment__text">
+                  <h3>Міла</h3>
+                  <p>Вибір шрифту та розміру шрифту, за допомогою якого Lorem ipsum відтворюється, відповідає на конкретні потреби, які виходять за рамки просто... <a href="/">Читати відгук</a></p>
+                </div>
+              </div>
+              <div class="comment__item swiper-slide">
+                <div class="comment__img">
+                  <img src="img/coment.png" alt="">
+                </div>
+                <div class="comment__text">
+                  <h3>Міла</h3>
+                  <p>Вибір шрифту та розміру шрифту, за допомогою якого Lorem ipsum відтворюється, відповідає на конкретні потреби, які виходять за рамки просто... <a href="/">Читати відгук</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="action">
+        <div class="container">
+          <div class="action__flex">
+            <span>5000</span>
+          <p>Встигніть отримати відповіді на питання вашої шкіри.</br>
+            Відкритий доступ до авторського тесту - тільки для перших 5000 клієнтів.</p>
+            <a href="" class="btn btn-gold">Безкоштовний тест</a>
+          </div>
+        </div>
+      </section>
     </main>
-    
-<footer class="footer">
-    
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__flex">
+      <div class="footer__top">
+        <div class="footer__item">
+          <div class="footer__logo">
+            <img src="img/logo.svg" alt="" />
+          </div>
+          <a href="" class="btn btn-primary">Пройти тест</a>
+        </div>
+        <div class="footer__item">
+          <ul>
+            <li><a href="">Підбір косметики</a></li>
+            <li><a href="">Процедури</a></li>
+            <li><a href="">Школа догляду</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <ul>
+            <li><a href="">Навчання лікарів</a></li>
+            <li><a href="">Новини</a></li>
+            <li><a href="">Контакти</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
+            <p>Соціальні медіа</p>
+            <div class="footer__social">
+                <a href="#"><img src="img/tg.png" alt=""></a>
+                <a href="#"><img src="img/inst.png" alt=""></a>
+                <a href="#"><img src="img/youtube.png" alt=""></a>
+                <a href="#"><img src="img/fb.png" alt=""></a>
+            </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <ul>
+            <li><a href="">Політика конфіденційності</a></li>
+            <li><a href="">Договір публічної оферти</a></li>
+            <li><a href="">Доставка, Оплата, Повернення</a></li>
+        </ul>
+        <span>Copyright ©  2010-2022. All rights reserved.</span>
+      </div>
+    </div>
+  </div>
 </footer>
-    <script src="js/main.min.js?_v=20220914195129"></script>
+
+    <script src="js/main.min.js?_v=20220925193942"></script>
   </body>
 </html>

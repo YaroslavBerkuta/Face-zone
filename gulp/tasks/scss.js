@@ -25,13 +25,6 @@ export const scss = () => {
         outputStyle: "expanded",
       })
     )
-    .pipe(gulpGroupCssMediaQueries())
-    .pipe(
-      webpCss({
-        webpClass: ".webp",
-        noWebpClass: ".no-webp",
-      })
-    )
     .pipe(
       autoPrefixer({
         grid: true,

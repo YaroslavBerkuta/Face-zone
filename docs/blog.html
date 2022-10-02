@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link
     rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css?_v=20220925193942"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css?_v=20221002204410"
   />
-  <link rel="stylesheet" href="css/style.min.css?_v=20220925193942" />
+  <link rel="stylesheet" href="css/style.min.css?_v=20221002204410" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap&_v=20220925193942"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap&_v=20221002204410"
     rel="stylesheet"
   />
   <title>Blog</title>
@@ -24,16 +24,16 @@
     <div class="header__flex">
       <div class="header__logo">
         <a href="/">
-          <img src="img/logo.svg" alt="logo" />
+          <img src="img/logoBlack.svg" alt="logo" />
         </a>
       </div>
-      <div class="header__menu">
+      <div class="header__menu header__menu-black">
         <ul>
           <li><a href="">Підбір косметики</a></li>
           <li><a href="">Процедури</a></li>
           <li><a href="">Школа догляду</a></li>
           <li><a href="">Для лікарів</a></li>
-          <li><a href="">Блог</a></li>
+          <li><a href="./blog.html">Блог</a></li>
           <li><a href="">Мій кабінет</a></li>
         </ul>
       </div>
@@ -71,7 +71,7 @@
           <div class="swiper-button-prev"></div>
           <h3>Найпопулярніше на сайті</h3>
           <div class="swiper-wrapper">
-            <div class="popular__slide swiper-slide">
+            <a class="popular__slide swiper-slide" href="./post.html">
               <div class="popular__img">
                 <img src="img/popular.png" alt="" />
               </div>
@@ -81,8 +81,8 @@
                   Skin-Care Routine
                 </p>
               </div>
-            </div>
-            <div class="popular__slide swiper-slide">
+            </a>
+            <a class="popular__slide swiper-slide" href="./post.html">
               <div class="popular__img">
                 <img src="img/popular.png" alt="" />
               </div>
@@ -92,8 +92,8 @@
                   Skin-Care Routine
                 </p>
               </div>
-            </div>
-            <div class="popular__slide swiper-slide">
+            </a>
+            <a class="popular__slide swiper-slide" href="./post.html">
               <div class="popular__img">
                 <img src="img/popular.png" alt="" />
               </div>
@@ -103,8 +103,8 @@
                   Skin-Care Routine
                 </p>
               </div>
-            </div>
-            <div class="popular__slide swiper-slide">
+            </a>
+            <a class="popular__slide swiper-slide" href="./post.html">
               <div class="popular__img">
                 <img src="img/popular.png" alt="" />
               </div>
@@ -114,8 +114,8 @@
                   Skin-Care Routine
                 </p>
               </div>
-            </div>
-            <div class="popular__slide swiper-slide">
+            </a>
+            <a class="popular__slide swiper-slide" href="./post.html">
               <div class="popular__img">
                 <img src="img/popular.png" alt="" />
               </div>
@@ -124,13 +124,176 @@
                   These Makeup Products Can Actually Replace Your Entire
                   Skin-Care Routine
                 </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="blog__flex">
+            <aside>
+              <label for="">
+                <button><img src="img/search.svg" alt="" /></button>
+                <input type="text" placeholder="Пошук..." />
+              </label>
+              <div class="blog__categoty">
+                <ul>
+                  <li><a href="">Умивання</a></li>
+                  <li><a href="">Маски</a></li>
+                  <li><a href="">Для повік</a></li>
+                  <li><a href="">Ексфоліація</a></li>
+                  <li><a href="">Тоніки</a></li>
+                  <li><a href="">Для губ</a></li>
+                </ul>
+              </div>
+            </aside>
+            <div class="blog__list">
+              <a href="./post.html" class="blog__item">
+                <span>Догляд за шкірою</span>
+                <div class="blog__img">
+                  <img src="img/blog1.png" alt="" />
+                </div>
+                <div class="blog__detail">
+                  <h3>
+                    Як захистити шкіру від сонцяб або інший в 2 стрічки або три
+                    к...
+                  </h3>
+                  <p>
+                    Доводиться досліджувати, що означають латинські хімічні
+                    назви та розбиратись в механізмах дії компонентів? Ще
+                    складніше - побудувати цілісну систему
+                  </p>
+                </div>
+              </a>
+              <a href="./post.html" class="blog__item">
+                <span>Догляд за шкірою</span>
+                <div class="blog__img">
+                  <img src="img/blog2.png" alt="" />
+                </div>
+                <div class="blog__detail">
+                  <h3>
+                    Як захистити шкіру від сонцяб або інший в 2 стрічки або три
+                    к...
+                  </h3>
+                  <p>
+                    Доводиться досліджувати, що означають латинські хімічні
+                    назви та розбиратись в механізмах дії компонентів? Ще
+                    складніше - побудувати цілісну систему
+                  </p>
+                </div>
+              </a>
+              <a href="./post.html" class="blog__item">
+                <span>Догляд за шкірою</span>
+                <div class="blog__img">
+                  <img src="img/blog3.png" alt="" />
+                </div>
+                <div class="blog__detail">
+                  <h3>
+                    Як захистити шкіру від сонцяб або інший в 2 стрічки або три
+                    к...
+                  </h3>
+                  <p>
+                    Доводиться досліджувати, що означають латинські хімічні
+                    назви та розбиратись в механізмах дії компонентів? Ще
+                    складніше - побудувати цілісну систему
+                  </p>
+                </div>
+              </a>
+              <a href="./post.html" class="blog__item">
+                <span>Догляд за шкірою</span>
+                <div class="blog__img">
+                  <img src="img/blog4.png" alt="" />
+                </div>
+                <div class="blog__detail">
+                  <h3>
+                    Як захистити шкіру від сонцяб або інший в 2 стрічки або три
+                    к...
+                  </h3>
+                  <p>
+                    Доводиться досліджувати, що означають латинські хімічні
+                    назви та розбиратись в механізмах дії компонентів? Ще
+                    складніше - побудувати цілісну систему
+                  </p>
+                </div>
+              </a>
+              <div class="pagination">
+                <ul>
+                  <span>
+                    <a href=""
+                      ><svg
+                        width="12"
+                        height="22"
+                        viewBox="0 0 12 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11 21L1 11L11 1"
+                          stroke="#333333"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </a>
+                  </span>
+                  <li class="active">
+                    <a href="">1</a>
+                  </li>
+                  <li>
+                    <a href="">2</a>
+                  </li>
+                  <li>
+                    <a href="">3</a>
+                  </li>
+                  <li>
+                    <a href="">4</a>
+                  </li>
+                  <li>
+                    <a href="">5</a>
+                  </li>
+                  <span>
+                    <a href=""
+                      ><svg
+                        width="12"
+                        height="22"
+                        viewBox="0 0 12 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1 1L11 11L1 21"
+                          stroke="#333333"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </a>
+                  </span>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </section>
       <section>
-        <div class="container"></div>
+        <div class="container">
+          <div class="mailing__flex">
+            <form action="">
+              <h4>Отримувати корисні статті про догляд за шкірою на пошту</h4>
+              <div class="form__container">
+                <span>Email</span>
+                <label for="">
+                  <input type="email" required placeholder="Ваш email" />
+                  <button>Хочу!</button>
+                </label>
+              </div>
+            </form>
+            <p>Реєструючись, ви приймаєте нашу Угоду користувача, Політику конфіденційності та Заяву про файли cookie.</p>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="footer">
@@ -179,6 +342,6 @@
   </div>
 </footer>
 
-    <script src="js/main.min.js?_v=20220925193942"></script>
+    <script src="js/main.min.js?_v=20221002204410"></script>
   </body>
 </html>
